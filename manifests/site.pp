@@ -5,9 +5,9 @@ package { 'vim':
 
 # Install a user called snorlax
 user { 'snorlax':
-  ensure => 'present',
-  groups => ['sudo'],
-  home => '/home/snorlax',
+  ensure     => 'present',
+  groups     => ['sudo'],
+  home       => '/home/snorlax',
   managehome => true,
-  shell => '/bin/bash',
+  shell      => '/bin/bash',
 }
