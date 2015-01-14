@@ -8,6 +8,7 @@ gem 'kitchen-puppet'
 gem 'test-kitchen'
 gem 'puppet-lint'
 gem 'puppet-syntax'
+gem 'rspec-puppet'
 
 group :development do
   gem 'guard'
