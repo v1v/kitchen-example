@@ -19,3 +19,14 @@ Lint and syntax
 ---------------
 
 - ```rake test```
+
+
+Continuous Testing
+------------------
+
+- ```guard```
+
+Further details:
+- http://www.jedi.be/blog/2011/12/13/testdriven-infrastructure-with-vagrant-puppet-guard/-
+- https://github.com/alister/guard-puppet-lint
+- https://github.com/garethr/puppet-module-skeleton
