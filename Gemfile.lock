@@ -20,6 +20,9 @@ GEM
       facter (> 1.6, < 3)
       hiera (~> 1.0)
       json_pure
+    puppet-lint (1.1.0)
+    puppet-syntax (1.4.1)
+      rake
     rake (10.4.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
@@ -60,6 +63,8 @@ DEPENDENCIES
   kitchen-docker
   kitchen-puppet
   puppet
+  puppet-lint
+  puppet-syntax
   rake
   serverspec
   test-kitchen
