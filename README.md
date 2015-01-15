@@ -21,8 +21,8 @@ Lint and syntax
 - ```rake test```
 
 
-Continuous Testing
-------------------
+Continuous Testing (WIP)
+------------------------
 
 - ```guard```
 
